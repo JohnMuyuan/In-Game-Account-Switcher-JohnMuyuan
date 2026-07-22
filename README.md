@@ -34,6 +34,32 @@ NeoForge, Quilt, and combinations not listed above are not supported by this edi
 - Removed the upstream remote-disable connection.
 - Hardened the local OAuth callback server and removed sensitive authentication response data from error logs.
 
+## Screenshots
+
+### Screenshot 1
+
+![In-Game Account Switcher screenshot 1](docs/images/1.png)
+
+### Screenshot 2
+
+![In-Game Account Switcher screenshot 2](docs/images/2.png)
+
+### Screenshot 3
+
+![In-Game Account Switcher screenshot 3](docs/images/3.png)
+
+### Screenshot 4
+
+![In-Game Account Switcher screenshot 4](docs/images/4.png)
+
+### Screenshot 5
+
+![In-Game Account Switcher screenshot 5](docs/images/5.png)
+
+### Screenshot 6
+
+![In-Game Account Switcher screenshot 6](docs/images/6.png)
+
 ## Installation
 
 1. Install a supported Minecraft version and its matching loader. Fabric builds also require Fabric API.
