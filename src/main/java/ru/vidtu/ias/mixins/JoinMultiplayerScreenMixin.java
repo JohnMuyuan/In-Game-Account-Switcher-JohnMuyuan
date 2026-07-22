@@ -52,6 +52,7 @@ import ru.vidtu.ias.utils.Expression;
 import ru.vidtu.ias.utils.SkinCache;
 
 import java.time.Duration;
+import java.util.Optional;
 
 /**
  * A dirty hacky mixin that adds the button on the server list properly, despite Mojang not clearing the widgets.
@@ -145,6 +146,15 @@ public final class JoinMultiplayerScreenMixin extends Screen {
             button.setTooltipDelay(Duration.ofMillis(250L));
             this.addRenderableWidget(button);
         }
+    }
+
+    @Override
+    public Optional<GuiEventListener> getChildAt(double mouseX, double mouseY) {
+        CapeSkinWidget preview = this.ias_preview;
+        if (preview != null && preview.isMouseOver(mouseX, mouseY)) {
+            return Optional.of(preview);
+        }
+        return super.getChildAt(mouseX, mouseY);
     }
 
     @Unique
