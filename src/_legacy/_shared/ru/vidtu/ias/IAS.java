@@ -57,7 +57,7 @@ public final class IAS {
      * User agent for HTTP requests.
      */
     @NotNull
-    public static final String USER_AGENT = "IAS-JohnMuyuan/%s (https://JohnMuyuan.com)".formatted(IAS.class.getPackage().getImplementationVersion());
+    public static final String USER_AGENT = "IAS-JohnMuyuan/%s (https://github.com/JohnMuyuan/In-Game-Account-Switcher-JohnMuyuan)".formatted(IAS.class.getPackage().getImplementationVersion());
 
     /**
      * Logger for this class.

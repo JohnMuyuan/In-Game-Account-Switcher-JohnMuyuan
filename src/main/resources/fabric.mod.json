@@ -17,7 +17,8 @@
     "WyattMarks"
   ],
   "contact": {
-    "homepage": "https://JohnMuyuan.com"
+    "homepage": "https://github.com/JohnMuyuan/In-Game-Account-Switcher-JohnMuyuan",
+    "issues": "https://github.com/JohnMuyuan/In-Game-Account-Switcher-JohnMuyuan/issues"
   },
   "license": "LGPL-3.0-or-later",
   "icon": "ias.png",
@@ -58,7 +59,7 @@
   "custom": {
     "modmenu": {
       "links": {
-        "ias.johnmuyuan.homepage": "https://JohnMuyuan.com"
+        "ias.johnmuyuan.homepage": "https://github.com/JohnMuyuan/In-Game-Account-Switcher-JohnMuyuan"
       }
     },
     "catalogue": {
