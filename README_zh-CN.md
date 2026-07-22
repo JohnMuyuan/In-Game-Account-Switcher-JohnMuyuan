@@ -78,7 +78,7 @@ JAVA_HOME=/path/to/jdk-25 ./gradlew --no-daemon \
 将 `26.2-fabric` 替换为支持表中的任一目标。生成的可发布 JAR 位于：
 
 ```text
-build/libs/IAS-9.0.7-johnmuyuan.1+<Minecraft版本>-<loader>.jar
+build/libs/IAS-9.0.7-johnmuyuan.1.1+<Minecraft版本>-<loader>.jar
 ```
 
 首次构建需要下载 Minecraft、loader 和构建依赖；离线模式仅在所需依赖已经缓存时可用。

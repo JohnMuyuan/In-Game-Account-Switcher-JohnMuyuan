@@ -51,6 +51,6 @@ jobs:
       - name: Upload ${{ matrix.target }} JAR
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
-          name: IAS-9.0.7-johnmuyuan.1-${{ matrix.target }}
-          path: build/libs/IAS-9.0.7-johnmuyuan.1+${{ matrix.target }}.jar
+          name: IAS-9.0.7-johnmuyuan.1.1-${{ matrix.target }}
+          path: build/libs/IAS-9.0.7-johnmuyuan.1.1+${{ matrix.target }}.jar
           if-no-files-found: error
