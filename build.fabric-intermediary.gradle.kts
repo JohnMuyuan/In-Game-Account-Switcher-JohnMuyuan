@@ -125,6 +125,9 @@ tasks.withType<RunGameTask> {
 repositories {
     mavenCentral()
     maven("https://maven.fabricmc.net/") // Fabric.
+    maven("https://api.modrinth.com/maven/") { // ModMenu mirror.
+        content { includeGroup("maven.modrinth") }
+    }
     maven("https://maven.terraformersmc.com/releases/") // ModMenu.
     if (mcp eq "1.20.4") { // Fix for ModMenu not providing Text Placeholder API.
         maven("https://maven.nucleoid.xyz/") // ModMenu. (Text Placeholder API)
@@ -167,7 +170,7 @@ dependencies {
     // ModMenu.
     val modmenu = "${property("modmenu")}"
     require(modmenu.isNotBlank() && modmenu != "null") { "ModMenu version is not provided via 'modmenu' in ${project}." }
-    modImplementation("com.terraformersmc:modmenu:${modmenu}")
+    modImplementation("maven.modrinth:modmenu:${modmenu}")
     modImplementation(fabricApi.module("fabric-key-binding-api-v1", fapi)) // ModMenu dependncy. (NOTE: >=26.1.2 script uses "mapping", not "binding")
     if (mcp eq "1.21.10") {
         modImplementation(fabricApi.module("fabric-resource-loader-v0", fapi)) // ModMenu dependency.
