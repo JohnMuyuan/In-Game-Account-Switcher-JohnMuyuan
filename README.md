@@ -78,7 +78,7 @@ JAVA_HOME=/path/to/jdk-25 ./gradlew --no-daemon \
 Replace `26.2-fabric` with any target from the supported-builds table. Release JARs are written to:
 
 ```text
-build/libs/IAS-9.0.7-johnmuyuan.2+<minecraft>-<loader>.jar
+build/libs/IAS-9.0.7-johnmuyuan.1+<minecraft>-<loader>.jar
 ```
 
 A first build requires network access to obtain Minecraft, loader, and build dependencies. Offline mode works only when all required dependencies are already cached.
