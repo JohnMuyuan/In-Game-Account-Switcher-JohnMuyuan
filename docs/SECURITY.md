@@ -2,7 +2,7 @@
 
 ## Supported Version
 
-Security fixes are provided for the latest source and release of In-Game Account Switcher: JohnMuyuan Edited Version. The currently verified targets are Fabric for Minecraft 1.20.1 and 26.2, and Forge for Minecraft 1.20.1, 26.1.2, and 26.2.
+Security fixes are provided for the latest source and release of In-Game Account Switcher: JohnMuyuan Edited Version. The currently verified targets are Fabric for Minecraft 1.20.1, 26.1.2, and 26.2, and Forge for Minecraft 1.20.1, 26.1.2, and 26.2.
 
 Other Minecraft versions and loader combinations are not supported by this edited version, even when inherited source files for them remain in the repository.
 

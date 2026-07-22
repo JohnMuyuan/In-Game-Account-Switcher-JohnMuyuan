@@ -15,6 +15,7 @@ The following targets have been built and verified:
 | Loader | Minecraft | Java | Additional requirements |
 | --- | --- | --- | --- |
 | Fabric | `1.20.1` | Java 17 | Fabric Loader `0.19.1+` and Fabric API; Mod Menu is optional |
+| Fabric | `26.1.2` | Java 25 | Fabric Loader `0.19.1+` and Fabric API; Mod Menu is optional |
 | Fabric | `26.2` | Java 25 | Fabric Loader `0.19.1+` and Fabric API; Mod Menu is optional |
 | Forge | `1.20.1` | Java 17 | Forge `47.3.19` to `<48` |
 | Forge | `26.1.2` | Java 25 | Forge `64.x` |

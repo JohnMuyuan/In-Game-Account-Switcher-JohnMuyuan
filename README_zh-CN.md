@@ -15,6 +15,7 @@
 | Loader | Minecraft | Java | 其他要求 |
 | --- | --- | --- | --- |
 | Fabric | `1.20.1` | Java 17 | Fabric Loader `0.19.1+`、Fabric API；Mod Menu 可选 |
+| Fabric | `26.1.2` | Java 25 | Fabric Loader `0.19.1+`、Fabric API；Mod Menu 可选 |
 | Fabric | `26.2` | Java 25 | Fabric Loader `0.19.1+`、Fabric API；Mod Menu 可选 |
 | Forge | `1.20.1` | Java 17 | Forge `47.3.19` 至 `<48` |
 | Forge | `26.1.2` | Java 25 | Forge `64.x` |
