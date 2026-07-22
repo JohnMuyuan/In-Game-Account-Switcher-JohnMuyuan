@@ -1,0 +1,55 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        target:
+          - 1.20.1-fabric
+          - 26.2-fabric
+          - 1.20.1-forge
+          - 26.1.2-forge
+          - 26.2-forge
+    env:
+      GRADLE_OPTS: -Dorg.gradle.java.installations.auto-download=false
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Set up JDKs
+        uses: actions/setup-java@03ad4de0992f5dab5e18fcb136590ce7c4a0ac95 # v5
+        with:
+          distribution: temurin
+          java-version: |
+            17
+            25
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@0b6dd653ba04f4f93bf581ec31e66cbd7dcb644d # v4
+
+      - name: Build ${{ matrix.target }}
+        run: >-
+          ./gradlew --no-daemon --no-configuration-cache
+          -Dru.vidtu.ias.only=${{ matrix.target }}
+          :${{ matrix.target }}:check
+          :${{ matrix.target }}:assemble
+
+      - name: Upload ${{ matrix.target }} JAR
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: IAS-9.0.7-johnmuyuan.1-${{ matrix.target }}
+          path: build/libs/IAS-9.0.7-johnmuyuan.1+${{ matrix.target }}.jar
+          if-no-files-found: error
