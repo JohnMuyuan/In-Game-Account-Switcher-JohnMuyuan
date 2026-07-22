@@ -7,6 +7,8 @@ _IAS_ACCOUNTS_DO_NOT_SEND_TO_ANYONE/
 out/
 run/
 versions/
+!/dev/versions/
+!/dev/versions/**
 !/.idea/codeStyles
 !/.idea/codeStyles/**
 !/.idea/copyright
