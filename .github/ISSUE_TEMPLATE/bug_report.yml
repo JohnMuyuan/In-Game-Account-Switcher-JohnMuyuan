@@ -1,0 +1,66 @@
+name: Bug 报告
+description: 报告模组运行中的问题
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请填写以下信息以帮助定位问题。
+        **注意：请勿在报告中粘贴 `_IAS_ACCOUNTS_DO_NOT_SEND_TO_ANYONE` 目录内容、账户令牌、全局密码或未打码的完整日志。**
+  - type: dropdown
+    id: edition
+    attributes:
+      label: 你使用的是哪个版本？
+      description: 请确认你使用的是本修改版而非上游原版
+      options:
+        - JohnMuyuan 修改版（本仓库）
+        - 上游原版（请前往上游仓库反馈）
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 模组版本
+      description: 例如 9.0.7-johnmuyuan.1.1
+      placeholder: 9.0.7-johnmuyuan.1.1
+    validations:
+      required: true
+  - type: dropdown
+    id: loader
+    attributes:
+      label: 加载器与 Minecraft 版本
+      options:
+        - Fabric 1.20.1
+        - Fabric 26.1.2
+        - Fabric 26.2
+        - Forge 1.20.1
+        - Forge 26.1.2
+        - Forge 26.2
+        - 其他（请在下方说明）
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 发生了什么？你预期的行为是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开游戏……
+        2. 点击……
+        3. 出现……
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关日志（已打码）
+      description: 请粘贴与问题相关的日志片段，并移除账户名、令牌等敏感信息
+      render: text
+    validations:
+      required: false

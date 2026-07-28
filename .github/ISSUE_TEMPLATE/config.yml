@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 上游原版模组
+    url: https://github.com/The-Fireplace-Minecraft-Mods/In-Game-Account-Switcher
+    about: 与上游原版相关的问题请前往上游仓库反馈
+  - name: 安全漏洞报告
+    url: https://github.com/JohnMuyuan/In-Game-Account-Switcher-JohnMuyuan/security/advisories/new
+    about: 请勿通过公开 Issue 报告安全问题，请使用私密漏洞报告
