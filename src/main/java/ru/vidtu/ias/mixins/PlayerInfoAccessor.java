@@ -1,3 +1,4 @@
+//? if >1.21.5 {
 /*
  * In-Game Account Switcher is a mod for Minecraft that allows you to change your logged in account in-game, without restarting Minecraft.
  * Copyright (C) 2015-2022 The_Fireplace
@@ -24,3 +25,4 @@ public interface PlayerInfoAccessor {
     @Accessor("skinLookup")
     void ias$skinLookup(Supplier<PlayerSkin> lookup);
 }
+//?}

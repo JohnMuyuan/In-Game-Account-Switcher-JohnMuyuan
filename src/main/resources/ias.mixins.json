@@ -10,9 +10,11 @@
     //? if >=1.21.10 {
     "JoinMultiplayerScreenMixin",
     //?}
+    //? if >1.21.5 {
+    "PlayerInfoAccessor",
+    //?}
     "MinecraftAccessor",
-    "MinecraftMixin",
-    "PlayerInfoAccessor"
+    "MinecraftMixin"
   ],
   "injectors": {
     "defaultRequire": 1
