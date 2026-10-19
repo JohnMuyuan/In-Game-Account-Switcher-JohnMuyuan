@@ -3,7 +3,7 @@
   "id": "ias",
   "version": "${version}",
   "name": "In-Game Account Switcher: JohnMuyuan Edited Version",
-  "description": "允许您在游戏中更改登入的帐号，而无需重新启动 Minecraft。此版本为江木源（JohnMuyuan）修改版，添加了多项功能并优化了账号切换体验。",
+  "description": "Switch accounts in game without restarting Minecraft. This edition is maintained by JohnMuyuan, with additional features and an improved account-switching experience.",
   "authors": [
     "VidTu",
     "JohnMuyuan"
