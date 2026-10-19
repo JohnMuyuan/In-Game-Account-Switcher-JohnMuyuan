@@ -1,6 +1,6 @@
 # In-Game Account Switcher: JohnMuyuan Edited Version
 
-**English** | [简体中文](README_zh-CN.md)
+**English** | [Simplified Chinese](README_zh-CN.md)
 
 ![In-Game Account Switcher icon](ias.png)
 
