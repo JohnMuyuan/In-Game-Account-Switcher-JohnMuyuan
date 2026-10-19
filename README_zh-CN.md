@@ -4,7 +4,7 @@
 
 ![In-Game Account Switcher 图标](ias.png)
 
-允许您在游戏中更改登录的账号，而无需重新启动 Minecraft。此版本为江木源（JohnMuyuan）修改版，添加了多项功能并优化了账号切换体验。
+允许您在游戏中更改登录的账号，而无需重新启动 Minecraft。此版本为JohnMuyuan修改版，添加了多项功能并优化了账号切换体验。
 
 本项目是 [In-Game Account Switcher](https://github.com/The-Fireplace-Minecraft-Mods/In-Game-Account-Switcher) 的非官方第三方修改版本。原项目作者、贡献者与 LGPL-3.0-or-later 许可信息均予以保留。
 
