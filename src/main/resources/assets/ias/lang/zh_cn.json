@@ -1,5 +1,5 @@
 {
-  "ias.johnmuyuan.homepage": "江木源的个人主页",
+  "ias.johnmuyuan.homepage": "JohnMuyuan的个人主页",
   "ias.accounts.switch": "切换",
   "ias.accounts.current": "返回当前登录账号",
   "ias.capes": "披风",
@@ -163,6 +163,6 @@
   "ias.help.crypt": "什么是密码加密？为什么存在密码加密,我应该使用哪种密码加密？",
   "ias.help.errors": "常见的验证错误",
   "ias.help.stolen": "如何防止账号被盗？",
-  "modmenu.descriptionTranslation.ias": "允许您在游戏中更改登入的帐号，而无需重新启动 Minecraft。此版本为江木源（JohnMuyuan）修改版，添加了多项功能并优化了账号切换体验。",
+  "modmenu.descriptionTranslation.ias": "允许您在游戏中更改登入的帐号，而无需重新启动 Minecraft。此版本为JohnMuyuan修改版，添加了多项功能并优化了账号切换体验。",
   "modmenu.summaryTranslation.ias": "允许您在游戏中更改帐号。"
 }
